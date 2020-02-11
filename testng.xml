@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="API Testing" verbose="1" >
+<test name ="rest apis">
+     <classes>
+	      <class name="restTest.deleteMethod" />
+	      <class name="restTest.getMethod" />
+	      <class name="restTest.patchMethod" />
+	      <class name="restTest.postMethod" />
+	      <class name="restTest.postScenario" />
+	      <class name="restTest.putMethod" />
+    </classes>
+</test>
+</suite>

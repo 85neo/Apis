@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="API Testing" duration-ms="7638" started-at="2020-01-31T15:47:13Z" finished-at="2020-01-31T15:47:21Z">
+    <groups>
+    </groups>
+    <test name="rest apis" duration-ms="7638" started-at="2020-01-31T15:47:13Z" finished-at="2020-01-31T15:47:21Z">
+      <class name="restTest.postMethod">
+        <test-method status="PASS" signature="postMethodSample()[pri:0, instance:restTest.postMethod@1bce4f0a]" name="postMethodSample" duration-ms="698" started-at="2020-01-31T15:47:19Z" finished-at="2020-01-31T15:47:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postMethodSample -->
+      </class> <!-- restTest.postMethod -->
+      <class name="restTest.patchMethod">
+        <test-method status="PASS" signature="patchScenario()[pri:0, instance:restTest.patchMethod@3bfdc050]" name="patchScenario" duration-ms="816" started-at="2020-01-31T15:47:18Z" finished-at="2020-01-31T15:47:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- patchScenario -->
+      </class> <!-- restTest.patchMethod -->
+      <class name="restTest.putMethod">
+        <test-method status="PASS" signature="putScenario()[pri:0, instance:restTest.putMethod@5c3bd550]" name="putScenario" duration-ms="822" started-at="2020-01-31T15:47:19Z" finished-at="2020-01-31T15:47:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- putScenario -->
+      </class> <!-- restTest.putMethod -->
+      <class name="restTest.deleteMethod">
+        <test-method status="PASS" signature="deleteTest()[pri:1, instance:restTest.deleteMethod@1e88b3c]" name="deleteTest" duration-ms="825" started-at="2020-01-31T15:47:20Z" finished-at="2020-01-31T15:47:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTest -->
+      </class> <!-- restTest.deleteMethod -->
+      <class name="restTest.getMethod">
+        <test-method status="PASS" signature="GetBookingIds_VerifyStatusCode()[pri:0, instance:restTest.getMethod@42d80b78]" name="GetBookingIds_VerifyStatusCode" duration-ms="4432" started-at="2020-01-31T15:47:13Z" finished-at="2020-01-31T15:47:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- GetBookingIds_VerifyStatusCode -->
+      </class> <!-- restTest.getMethod -->
+    </test> <!-- rest apis -->
+  </suite> <!-- API Testing -->
+</testng-results>
